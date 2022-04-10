@@ -1,5 +1,5 @@
 Banana	x1
-Apple	x2
+Apple	x4
 Kiwi	x3
 Milk	x4
 Egg		x5

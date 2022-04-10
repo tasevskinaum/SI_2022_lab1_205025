@@ -1,5 +1,6 @@
 Banana	x1
 Apple	x2
 Kiwi	x3
-Milk	x4
+Orange	x4
 Egg		x5
+Strawberry

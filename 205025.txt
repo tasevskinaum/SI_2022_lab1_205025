@@ -1,0 +1,155 @@
+/**************************************************************************************/					
+/ Vo fajlot se naogjaat: 								                               /
+/ Komandi koi se iskoristeni pri izrabotuvanje na laboratoriskata i logovi od grankite /
+/**************************************************************************************/
+
+git clone https://github.com/tasevskinaum/SI_2022_lab1_205025.git
+git add .
+git commit -m "Add 5 items to the shopping list."
+git add .
+git commit -m "Add quantities to the items."
+git checkout -b branch1
+git checkout master
+git checkout -b branch2
+git log
+git push origin master
+git push origin branch1
+git push origin branch2
+git chekocut branch1
+git add .
+git commit -m "Change quantity of item #5."
+git checkout master
+git add .
+git commit -m "Change quantity of item #2."
+git checkout master
+git push origin master
+git push origin branch1
+git push origin branch2
+git checkout branch2
+git add .
+git commit -m "Modify item #4."
+git log
+git add .
+git commit --amend
+git log
+git checkout master
+git merge branch1
+git merge branch2 //KONFLIKT
+git add .
+git commit -m "Merge branch 'branch2'"
+git add .
+git commit -m "Add docs."
+git push origin master
+git push origin branch1
+git push origin branch2
+/**************************************************************************************/
+
+LOGS
+Master LOGS
+/**************************************************************************************/
+
+commit 3dee234c8af39496adeb10a4e8562290baef1272 (HEAD -> master)
+Merge: 94ab2d4 872d7cd
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:50:58 2022 +0200
+
+    Merge branch 'branch2'
+
+commit 94ab2d4e00ed71f8bb08173ebfb33273062e258d
+Merge: c6da795 75739b0
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:50:20 2022 +0200
+
+    Merge branch 'branch1'
+
+commit 872d7cd6326177994badc03dc642c6d7d3bee88d (branch2)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:49:18 2022 +0200
+
+    Modify item #4 and add item #6.
+
+commit c6da7959d2616cd84518d0eb18f9a9a2f81589ba (origin/master, origin/HEAD)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:48:00 2022 +0200
+
+    Change quantity of item #2.
+
+commit 75739b02696627b85a2075d010ffa6d50232dd07 (origin/branch1, branch1)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:47:32 2022 +0200
+
+    Change quantity of item #5.
+
+commit c9203c0a6ca1b443f4f00ed319c325b9d3637884 (origin/branch2)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:47 2022 +0200
+
+    Add quantities to the items.
+
+commit 85d8f91415ede00e1727aedf65115783b3f725ca
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:16 2022 +0200
+
+    Add 5 items to the shopping list.
+
+commit ddc53248014ad077818c78fabd5628531bae437a
+Author: tasevskinaum <100246899+tasevskinaum@users.noreply.github.com>
+Date:   Sun Apr 10 18:42:40 2022 +0200
+
+    Initial commit
+
+
+Branch1 LOGS
+/**************************************************************************************/
+
+commit 75739b02696627b85a2075d010ffa6d50232dd07 (HEAD -> branch1, origin/branch1)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:47:32 2022 +0200
+
+    Change quantity of item #5.
+
+commit c9203c0a6ca1b443f4f00ed319c325b9d3637884 (origin/branch2)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:47 2022 +0200
+
+    Add quantities to the items.
+
+commit 85d8f91415ede00e1727aedf65115783b3f725ca
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:16 2022 +0200
+
+    Add 5 items to the shopping list.
+
+commit ddc53248014ad077818c78fabd5628531bae437a
+Author: tasevskinaum <100246899+tasevskinaum@users.noreply.github.com>
+Date:   Sun Apr 10 18:42:40 2022 +0200
+
+    Initial commit
+
+
+Branch1 LOGS
+/**************************************************************************************/
+
+commit 872d7cd6326177994badc03dc642c6d7d3bee88d (HEAD -> branch2)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:49:18 2022 +0200
+
+    Modify item #4 and add item #6.
+
+commit c9203c0a6ca1b443f4f00ed319c325b9d3637884 (origin/branch2)
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:47 2022 +0200
+
+    Add quantities to the items.
+
+commit 85d8f91415ede00e1727aedf65115783b3f725ca
+Author: tasevskinaum <tasevskinaum@yahoo.com>
+Date:   Sun Apr 10 18:45:16 2022 +0200
+
+    Add 5 items to the shopping list.
+
+commit ddc53248014ad077818c78fabd5628531bae437a
+Author: tasevskinaum <100246899+tasevskinaum@users.noreply.github.com>
+Date:   Sun Apr 10 18:42:40 2022 +0200
+
+    Initial commit
